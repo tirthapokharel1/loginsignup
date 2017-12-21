@@ -1,8 +1,8 @@
 module.exports = {
 	development: {
-		db: 'mongodb://localhost/passport-tut',
+		db: 'mongodb://tirtha:123456789@ds163053.mlab.com:63053/testform',
 		app: {
-			name: 'Passport Authentication Tutorial'
+			name: 'User Registration Login'
 		},
 		facebook: {
 			clientID: "{{PLACEHOLDER}}",
@@ -19,7 +19,7 @@ module.exports = {
   	production: {
     	db: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL,
 		app: {
-			name: 'Passport Authentication Tutorial'
+			name: 'User Registration Login'
 		},
 		facebook: {
 			clientID: "",
